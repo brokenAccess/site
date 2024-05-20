@@ -1,0 +1,104 @@
+   body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffdead;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #99700042;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1{
+            text-align: center;
+            color: #575757
+        }
+    
+        h2, h3 {
+            color: #333;
+        }
+        p {
+            color: #696969;
+        }
+        .review {
+            box-sizing: border-box;
+            border: 5px solid #696969;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .review img {
+            max-width: 12%;
+            height: 12%;
+            border-radius: 5px;
+        }
+        .review h2 {
+            margin-top: 10px;
+        }
+        .review p {
+            margin-top: 5px;
+        }
+        .review .author {
+            color: #2885fff5;
+            font-style: italic;
+        }
+        .image-container {
+            display: inline-block;
+            position: relative;
+          }
+    
+          .image-container img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        
+        .image-container .hover-img {
+            position: absolute;
+            top: 5px;
+            left: 5px;
+            display: none;
+        }
+        
+        .image-container:hover .hover-img {
+            display: block;
+            transform: scale(1.1);
+            transition: all 0.2s;
+        }
+        .review-button {
+            background-color: #ee5c5c;
+            padding: 15px;
+            border: none;
+            font-size: 16px;
+            color: #fff;
+            cursor: pointer;
+            transition: all 0.5s;
+        }
+        
+        .review-button:hover {
+            background-color: #892bbe;
+        }
+        
+        .review-button:focus {
+            outline: none;
+        }
+        .label {
+            display:block;
+            margin-bottom:20px;
+          }
+          .text-block {
+            border: 1px solid #ccc;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        
+        .text-block p {
+            margin-bottom: 10px;
+        }
+        
+          
+        
+
+                
